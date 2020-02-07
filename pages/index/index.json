@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tabbar": "../../components/tabbar/index",
+    "mp-searchbar": "/weui-miniprogram/searchbar/searchbar",
+    "form-test":"../page/form/index"
+  },
+  "navigationBarTitleText": "UI组件库"
+}

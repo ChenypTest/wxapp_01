@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<block wx:if="{{blockid==0}}">
+  <view class="page">
+    <view class="page__bd">
+        <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    </view>
+</view>
+</block>
+<block wx:if="{{blockid==1}}">
+  <form-test/>
+</block>
+<block wx:if="{{blockid==2}}">
+  这里是我的页
+</block>
+<block wx:if="{{blockid==3}}">
+  这里是设置页
+</block>
+
+
+<tabbar tabbarData="{{tabbar}}" active="{{0}}" bgcolor="{{bgcolor}}" color="{{color}}" selectedColor="{{selectedColor}}"  showborder="{{showborder}}"  bind:tapChange="tabbarChange" />
